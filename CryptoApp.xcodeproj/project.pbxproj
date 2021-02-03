@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B900B57825CB41730099C757 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B900B57725CB41730099C757 /* CryptoViewModel.swift */; };
 		B90285F425CB33B2002D6DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90285F325CB33B2002D6DEC /* AppDelegate.swift */; };
 		B90285F625CB33B2002D6DEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90285F525CB33B2002D6DEC /* SceneDelegate.swift */; };
 		B90285F825CB33B2002D6DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90285F725CB33B2002D6DEC /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B900B57725CB41730099C757 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 		B90285F025CB33B2002D6DEC /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90285F325CB33B2002D6DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B90285F525CB33B2002D6DEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		B902860E25CB37C9002D6DEC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B900B57725CB41730099C757 /* CryptoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				B902861525CB3955002D6DEC /* WebService.swift in Sources */,
 				B902860925CB357B002D6DEC /* CryptoTableViewCell.swift in Sources */,
 				B90285F825CB33B2002D6DEC /* ViewController.swift in Sources */,
+				B900B57825CB41730099C757 /* CryptoViewModel.swift in Sources */,
 				B90285F425CB33B2002D6DEC /* AppDelegate.swift in Sources */,
 				B902861125CB384A002D6DEC /* CryptoCurrency.swift in Sources */,
 				B90285F625CB33B2002D6DEC /* SceneDelegate.swift in Sources */,
