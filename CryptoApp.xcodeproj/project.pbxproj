@@ -15,6 +15,7 @@
 		B902860025CB33B4002D6DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90285FE25CB33B4002D6DEC /* LaunchScreen.storyboard */; };
 		B902860925CB357B002D6DEC /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B902860825CB357B002D6DEC /* CryptoTableViewCell.swift */; };
 		B902861125CB384A002D6DEC /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B902861025CB384A002D6DEC /* CryptoCurrency.swift */; };
+		B902861525CB3955002D6DEC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B902861425CB3955002D6DEC /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B902860125CB33B4002D6DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B902860825CB357B002D6DEC /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		B902861025CB384A002D6DEC /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		B902861425CB3955002D6DEC /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		B902860F25CB37D7002D6DEC /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				B902861425CB3955002D6DEC /* WebService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B902861525CB3955002D6DEC /* WebService.swift in Sources */,
 				B902860925CB357B002D6DEC /* CryptoTableViewCell.swift in Sources */,
 				B90285F825CB33B2002D6DEC /* ViewController.swift in Sources */,
 				B90285F425CB33B2002D6DEC /* AppDelegate.swift in Sources */,
